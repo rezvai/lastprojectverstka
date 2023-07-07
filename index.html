@@ -6,29 +6,20 @@
     <title>Uber Eats</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
-    <script>
-        function show(shown, hidden) {
-          document.getElementById(shown).style.display='block';
-          document.getElementById(hidden).style.display='none';
-          return false;
-        }
-        </script>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="col-sm-12 col-md-12 col-lg-12">
+
+      <div class="headerleft">
         <img class="logo" src="images/logo.svg" href="#" onclick="return show('Page2','Page1');">
-        <a class="login" href="#">Войти</a>
-    <div id="Page1">
-            <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
-            
-        </header>
-    
       </div>
-        
-      <div id="Page2" style="display:none">
-        Content of page 10
-        <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+
+      <div class="headerright">
+        <a class="logintext" href="#">Войти</a>
+        <img class="basketlogin" src="images/basket.svg" href="#">
       </div>
+      
+      </header>
 </body>
 </html>
