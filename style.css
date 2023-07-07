@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    background: #FFF;
+    filter: drop-shadow(0px 0px 16px rgba(38, 38, 38, 0.16));
+    height: 72px;
+    width: 100%;
+}
+
+.logo {
+    width: 119.231px;
+    height: 12.308px;
+    flex-shrink: 0;
+    margin-left: 81.4px;
+    margin-top: 30px;
+}
+
+header .login {
+    /* padding: 14px 20px 14px 20px; */
+    padding-top: 20;
+    padding-bottom: 14;
+    border: solid;
+    border-color: #E0E0E0;;
+    text-decoration: none;
+    margin-top: 16px;
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 78px;
+    height: 40px;
+    align-self: center;
+}
