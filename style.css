@@ -1,40 +1,39 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
-header {    
+header {   
+    padding-top: 0;
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     background: #FFF;
     filter: drop-shadow(0px 0px 16px rgba(38, 38, 38, 0.16));
     height: 72px;
     width: 100%;
-    justify-content: space-between;
     align-items: center;
-}
-
-.headerright {
-    display: flex;
-    justify-self: flex-end;
-    margin-right: 143px;
 }
 
 .headerleft {
     display: flex;
-    justify-self: flex-start;
-    margin-left: 143px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .logo {
     width: 119.231px;
     height: 12.308px;
     flex-shrink: 0;
- 
 }
 
-.logintext {
-    background: url('images/Rectangle.svg');
+.singupcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.singuptext {
     color: #1D1D1D;
+    background: url('images/Rectangle.svg');
     text-align: center;
     font-family: Roboto;
     font-size: 13px;
@@ -44,17 +43,18 @@ header {
     width: 78px;
     height: 40px;
     padding-top: 8px;
-    align-self: center;
-    box-sizing: border-box;
     text-decoration: none;
     width: 100%;
     padding: 8px 21px 8px 21px;
+    box-sizing: border-box;
 }
 
-.basketlogin {
+.basketsingup {
+    display: flex;
     width: 40px;
     height: 72px;
     flex-shrink: 0;
+    align-self: center;
 }
 
 .searchtext {
@@ -64,4 +64,93 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    margin-top: 56px;
+
+}
+
+.search { 
+    margin-left: 51px; 
+    margin-right: 51px; 
+}
+
+.searchhr {
+    fill: #757575;
+    opacity: 0.30000001192092896;
+    height: 1px;
+    margin-top: -19px;
+}
+
+h2 {
+    margin-top: 56px;
+    margin-left: 51px;
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.containerrestaurant {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 317.935px;
+    height: 256px;
+    flex-shrink: 0;
+}
+
+.name {
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.price {
+    color: #626262;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.time {
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+footer {
+    background: #262626;
+}
+
+.footerlogo {
+    width: 190.769px;
+    height: 19.692px;
+    flex-shrink: 0;
+    padding-top: 56px;
+    padding-bottom: 40.31px;
+}
+
+.footerhr {
+    fill: #FFF;
+    opacity: 0.4000000059604645;
+    height: 1px;
+    flex-shrink: 0;
+}
+
+.languagebutton {
+    background: url('images/Rectangle9.svg');
 }
