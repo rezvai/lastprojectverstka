@@ -69,8 +69,8 @@ header {
 }
 
 .search { 
-    margin-left: 51px; 
-    margin-right: 51px; 
+    /* margin-left: 51px; 
+    margin-right: 51px;  */
 }
 
 .searchhr {
@@ -152,5 +152,142 @@ footer {
 }
 
 .languagebutton {
+    display: flex;
     background: url('images/Rectangle9.svg');
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 33px;
+    box-sizing: border-box;
+    margin-right: 97px;
+}
+
+.languagetext {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 16.28px;
+    margin-right: 106px;
+}
+
+.ubereatssymbol {
+    color: #49A144;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.eatsfootertext {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.socialicons {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.litext {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerendtext {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.namecard {
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.cardslide {
+    padding-bottom: 46px;
+    padding-top: 38px;
+    background: #FFF;
+    filter: drop-shadow(0px 0px 16px rgba(117, 117, 117, 0.20));
+}
+
+.bottomcardtext {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timerestaurant {
+    background: url('images/Rectangle3.svg');
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 17px 8px 16px;
+}
+
+.listnavigatetext {
+    color: #626262;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listnavigate {
+    /* background-color: #FFF; */
+    stroke-width: 1px;
+    stroke: rgba(117, 117, 117, 0.20);
+    justify-content: flex-start;
+    margin-top: 32px;
+    margin-bottom: 29px;
+}
+
+.listspan {
+    color: #327430;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.restauranthead {
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(117, 117, 117, 0.20);
+    width: 100%;
+}
+
+.food {
+    color: #1D1D1D;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
 }
